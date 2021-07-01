@@ -1,0 +1,33 @@
+id;name;entity_name;table_name;clazz_name;system;generated;creat_at;generate_at;generate_class_at;description;creator_id;business_type_id;tree_table;edit_in_modal
+1;用户表;User;jhi_user;User;true;true;2019-10-30 05:49:43.000000000;2019-10-29 16:15:50.000000000;2019-10-29 17:38:10.000000000;用户表;1;1;false;false
+2;历史任务实例;HistoryTaskInstance;t_his_task_ins;HistoryTaskInstance;true;true;2019-10-30 05:49:43.000000000;2019-10-30 05:49:43.000000000;2019-10-30 05:49:43.000000000;历史任务实例;1;8;false;false
+3;角色;Authority;jhi_authority;Authority;true;true;2020-09-26T01:37:18;2020-09-26T01:37:18;2020-09-26T01:37:18;角色;1;1;true;false
+4;部门角色;DepartmentAuthority;department_authority;DepartmentAuthority;true;true;2021-06-30T23:28:40;2021-06-30T23:28:40;2021-06-30T23:28:40;部门角色;1;4;false;false
+5;模型字段;CommonTableField;common_table_field;CommonTableField;true;true;2021-06-30T23:27:49;2021-06-30T23:27:49;2021-06-30T23:27:49;模型字段;1;9;false;false
+6;短信消息;SmsMessage;sms_message;SmsMessage;true;true;2021-07-01T11:08:06;2021-07-01T11:08:06;2021-07-01T11:08:06;短信消息;1;1;false;false
+7;对象存储配置;OssConfig;oss_config;OssConfig;true;true;2021-07-01T08:36:07;2021-07-01T08:36:07;2021-07-01T08:36:07;对象存储配置;1;2;false;false
+8;API权限;ApiPermission;api_permission;ApiPermission;true;true;2021-07-01T00:28:35;2021-07-01T00:28:35;2021-07-01T00:28:35;API权限\n菜单或按钮下有相关的api权限;1;1;true;false
+9;上传图片;UploadImage;upload_image;UploadImage;true;true;2021-07-01T08:53:48;2021-07-01T08:53:48;2021-07-01T08:53:48;上传图片;1;2;false;false
+10;短信配置;SmsConfig;sms_config;SmsConfig;true;true;2021-07-01T12:21:48;2021-07-01T12:21:48;2021-07-01T12:21:48;短信配置;1;2;false;false
+11;报表存储;UReportFile;u_report_file;UReportFile;true;true;2021-07-01T05:49:48;2021-07-01T05:49:48;2021-07-01T05:49:48;报表存储;1;10;false;false
+12;通告阅读记录;AnnouncementRecord;announcement_record;AnnouncementRecord;true;true;2021-06-30T17:18:02;2021-06-30T17:18:02;2021-06-30T17:18:02;通告阅读记录;1;1;false;false
+13;部门;Department;department;Department;true;true;2021-07-01T10:31:01;2021-07-01T10:31:01;2021-07-01T10:31:01;部门;1;4;true;false
+14;消息模板;SmsTemplate;sms_template;SmsTemplate;true;true;2021-07-01T06:15:03;2021-07-01T06:15:03;2021-07-01T06:15:03;消息模板;1;1;false;false
+15;网站配置;SiteConfig;site_config;SiteConfig;true;true;2021-07-01T10:58:07;2021-07-01T10:58:07;2021-07-01T10:58:07;网站配置;1;1;false;false
+16;系统通告;Announcement;announcement;Announcement;true;true;2021-06-30T22:04:44;2021-06-30T22:04:44;2021-06-30T22:04:44;系统通告;1;1;false;false
+17;统计Api;StatisticsApi;statistics_api;StatisticsApi;true;true;2021-07-01T06:50:56;2021-07-01T06:50:56;2021-07-01T06:50:56;统计Api;1;10;false;false
+18;业务类型;BusinessType;business_type;BusinessType;true;true;2021-07-01T09:09:40;2021-07-01T09:09:40;2021-07-01T09:09:40;业务类型;1;4;false;false
+19;模型关系;CommonTableRelationship;common_table_relationship;CommonTableRelationship;true;true;2021-06-30T22:48:21;2021-06-30T22:48:21;2021-06-30T22:48:21;模型关系;1;9;false;false
+20;系统日志;SysLog;sys_log;SysLog;true;true;2021-07-01T09:11:07;2021-07-01T09:11:07;2021-07-01T09:11:07;系统日志;1;1;false;false
+21;可视权限;ViewPermission;view_permission;ViewPermission;true;true;2021-06-30T23:07:12;2021-06-30T23:07:12;2021-06-30T23:07:12;可视权限\n权限分为菜单权限、按钮权限等\n;1;1;true;false
+22;通用条件条目;CommonConditionItem;common_condition_item;CommonConditionItem;true;true;2021-06-30T18:27:19;2021-06-30T18:27:19;2021-06-30T18:27:19;通用条件条目;1;10;false;false
+23;数据权限规则;DataPermissionRule;data_permission_rule;DataPermissionRule;true;true;2021-07-01T12:51:58;2021-07-01T12:51:58;2021-07-01T12:51:58;数据权限规则;1;1;false;false
+24;关系模型;CommonTable;common_table;CommonTable;true;true;2021-06-30T18:56:04;2021-06-30T18:56:04;2021-06-30T18:56:04;关系模型;1;9;false;false
+25;填充规则;SysFillRule;sys_fill_rule;SysFillRule;true;true;2021-07-01T11:52:21;2021-07-01T11:52:21;2021-07-01T11:52:21;填充规则;1;4;false;false
+26;资源分类;ResourceCategory;resource_category;ResourceCategory;true;true;2021-07-01T00:51:47;2021-07-01T00:51:47;2021-07-01T00:51:47;资源分类;1;2;true;false
+27;上传文件;UploadFile;upload_file;UploadFile;true;true;2021-06-30T17:56:36;2021-06-30T17:56:36;2021-06-30T17:56:36;上传文件;1;2;false;false
+28;岗位;Position;position;Position;true;true;2021-06-30T17:36:48;2021-06-30T17:36:48;2021-06-30T17:36:48;岗位\n@author jhipster.pro;1;4;false;false
+29;数据字典;DataDictionary;data_dictionary;DataDictionary;true;true;2021-07-01T06:09:51;2021-07-01T06:09:51;2021-07-01T06:09:51;数据字典;1;4;true;false
+30;通用条件;CommonCondition;common_condition;CommonCondition;true;true;2021-07-01T14:10:04;2021-07-01T14:10:04;2021-07-01T14:10:04;通用条件;1;10;false;false
+31;GPS信息;GpsInfo;gps_info;GpsInfo;true;true;2021-06-30T22:28:43;2021-06-30T22:28:43;2021-06-30T22:28:43;GPS信息;1;4;false;false
+32;行政区划码;RegionCode;region_code;RegionCode;true;true;2021-06-30T19:46:49;2021-06-30T19:46:49;2021-06-30T19:46:49;行政区划码;1;4;true;false

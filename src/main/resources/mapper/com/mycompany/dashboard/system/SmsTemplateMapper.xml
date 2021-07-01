@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mycompany.dashboard.system.repository.SmsTemplateRepository">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.mycompany.dashboard.system.domain.SmsTemplate">
+        <id column="id" property="id"/>
+        <result column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="code" property="code" />
+        <result column="type" property="type" />
+        <result column="content" property="content" />
+        <result column="test_json" property="testJson" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,id,name,code,type,content,test_json
+    </sql>
+</mapper>

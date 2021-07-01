@@ -1,0 +1,13 @@
+id;text;i_18_n;group;link;external_link;target;icon;disabled;hide;hide_in_breadcrumb;shortcut;shortcut_root;reuse;code;description;type;order;api_permission_codes;parent_id;component_file;redirect
+1;主导航;;true;/;;TOP;;false;false;true;false;false;false;index;;MENU;1;;NULL;components/layouts/TabLayout;/dashboard
+2;仪表盘;;false;/dashboard;;PARENT;anticon anticon-dashboard;false;false;false;false;false;false;dashboard;;MENU;1;;1;components/layouts/RouteView;/dashboard/analysis
+3;分析页;;false;/dashboard/analysis;;BLANK;;false;false;false;false;false;false;Analysis;;MENU;0;;2;views/dashboard/Analysis;
+77;设置;;true;/settings;;NULL;;false;false;true;false;false;false;;;MENU;1;;NULL;components/layouts/RouteView;/entities/system
+87;业务;;true;/entities;;NULL;;false;false;true;false;false;false;business;;MENU;1;;NULL;components/layouts/RouteView;
+97;开发参考;;false;/development;;SELF;anticon anticon-code;false;false;false;false;false;false;;;MENU;1;;77;components/layouts/RouteView;/admin/docs
+99;API;;false;/admin/docs;;SELF;;false;false;false;false;false;false;admin-docs;;MENU;1;;97;admin/docs/docs;
+105;系统设置;;false;/settings/system;;NULL;anticon anticon-setting;false;false;false;false;false;false;;;MENU;1;;87;components/layouts/RouteView;
+106;用户管理;;false;/entities/system/user;;SELF;;false;false;false;false;false;false;system-user-list;;MENU;1;;105;entities/system/user/user;
+107;缓存管理;;false;/entities/system/cache-manage;;SELF;;false;false;false;false;false;false;system-cache-manage;;MENU;1;;105;entities/system/cache-manage/cache-manage;
+108;数据可视;;false;/entities/report;;SELF;anticon anticon-file-text;false;false;false;false;false;false;;;MENU;1;;87;components/layouts/RouteView;
+109;角色管理;;false;/entities/system/authority;;SELF;;false;false;false;false;false;false;system-authority-list;;MENU;1;;105;entities/system/authority/authority;
